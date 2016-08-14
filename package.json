@@ -1,0 +1,26 @@
+{
+  "name": "seneca-logentries-logger",
+  "version": "0.0.1",
+  "description": "Seneca Logentries Logger",
+  "main": "index.js",
+  "precommit": "test",
+  "scripts": {
+    "test": "lab -v -L -P test -t 95",
+    "coverage": ""
+  },
+  "author": "David Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "le_node": "1.6.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint-config-seneca": "^3.0.0",
+    "eslint-plugin-hapi": "^4.0.0",
+    "eslint-plugin-standard": "^2.0.0",
+    "lab": "10.9.0",
+    "mock-require": "1.3.0",
+    "precommit": "^1.2.2",
+    "seneca": "2.1.0"
+  }
+}
