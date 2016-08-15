@@ -9,10 +9,13 @@
     "coverage": ""
   },
   "author": "David Gonzalez",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "le_node": "1.6.0"
   },
+	"engines": {
+	"node": ">=4.x"
+},
   "devDependencies": {
     "chai": "3.5.0",
     "eslint-config-seneca": "^3.0.0",
