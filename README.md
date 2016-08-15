@@ -2,11 +2,13 @@
 > A [Seneca.js](https://www.npmjs.com/package/seneca) logger for Logentries
 
 # logentries-seneca-logger
-[![Npm][BadgeNpm]][Npm]
-[![NpmFigs][BadgeNpmFigs]][Npm]
-[![Travis][BadgeTravis]][Travis]
+
+[![npm version][npm-badge]][npm-url]
+[![Build Status][travis-badge]][travis-url]
+[![Dependency Status][david-badge]][david-url]
 [![Coveralls][BadgeCoveralls]][Coveralls]
-[![Gitter][BadgeGitter]][Gitter]
+[![Gitter][gitter-badge]][gitter-url]
+
 
 - __Lead Maintainer__: [David Gonzalez](https://github.com/dgonzalez)
 - __Sponsor__: [nearForm](http://www.nearform.com)
@@ -55,3 +57,14 @@ documentation, examples, extra testing, or new features please get in touch.
 
 Copyright (c) 2016, David Gonzalez and other contributors.
 Licensed under [MIT](LICENSE).
+
+[npm-url]: https://npmjs.com/package/seneca-logentries-logger
+[npm-badge]: https://img.shields.io/npm/v/seneca-logentries-logger.svg
+[travis-badge]: https://travis-ci.org/senecajs/seneca-logentries-logger.svg
+[travis-url]: https://travis-ci.org/senecajs/seneca-logentries-logger
+[david-badge]: https://david-dm.org/senecajs/seneca-logentries-logger.svg
+[david-url]: https://david-dm.org/senecajs/seneca-logentries-logger
+[Coveralls]: https://coveralls.io/github/senecajs/seneca-logentries-logger?branch=master
+[BadgeCoveralls]: https://coveralls.io/repos/github/senecajs/seneca-logentries-logger/badge.svg?branch=master
+[gitter-url]: https://gitter.im/senecajs/seneca-logentries-logger
+[gitter-badge]: https://badges.gitter.im/Join%20Chat.svg

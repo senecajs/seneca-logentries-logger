@@ -2,9 +2,10 @@
 
 var Mock = require('mock-require')
 var Seneca = require('seneca')
-var expect = require('chai').expect
 var Lab = require('lab')
 var lab = exports.lab = Lab.script()
+var Code = require('code')
+var expect = Code.expect
 
 var logLevels = {debug: 0, info: 1, warn: 2, error: 3, fatal: 4}
 var senecaConfigNoLevels = {legacy: {logging: false}, 'logentries-logger': {}}
@@ -13,7 +14,7 @@ var senecaConfig = {legacy: {logging: false}, 'logentries-logger': {levels: {}}}
 
 lab.test('Overrides levels if not present', function (done) {
   Mock('le_node', function (config) {
-    expect(config.levels).to.deep.equal(logLevels)
+    expect(config.levels).to.equal(logLevels)
     return {debug: function () {}}
   })
   Mock.reRequire('../logentries')
@@ -24,7 +25,7 @@ lab.test('Overrides levels if not present', function (done) {
 
 lab.test('Keeps the levels if they are passed on the config', function (done) {
   Mock('le_node', function (config) {
-    expect(config.levels).to.deep.equal({})
+    expect(config.levels).to.equal({})
     return {debug: function () {}}
   })
   Mock.reRequire('../logentries')
