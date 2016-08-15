@@ -14,7 +14,7 @@ var seneca = Seneca({legacy: {logging: false}, 'logentries-logger': {token: <you
 seneca.use(require('seneca-logentries-logger'))
 ```
 
-And that's all! From now on, all the Seneca log output will be sent to the logentries
+And that's all! From now on, all the Seneca log output will be sent to the Logentries
 log configured to the specified token.
 
 # Configuration
