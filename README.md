@@ -1,5 +1,5 @@
 ![Seneca](http://senecajs.org/files/assets/seneca-logo.png)
-> A [Seneca.js][] logger for Logentries
+> A [Seneca.js](https://www.npmjs.com/package/seneca) logger for Logentries
 
 # Logentries Seneca Logger
 This module is a plugin that enables your Seneca-based microservice to send logs
