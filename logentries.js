@@ -7,7 +7,7 @@ function Logger () {}
 Logger.preload = function () {
   var seneca = this
   var options = seneca.options()
-  var logentries = options.logentriesConfiguration
+  var logentries = options['logentries-logger']
   if (logentries && !logentries.levels) {
     // Match the Seneca log levels:
     logentries.levels = {debug: 0, info: 1, warn: 2, error: 3, fatal: 4}
