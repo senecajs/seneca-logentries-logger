@@ -2,7 +2,7 @@
   "name": "seneca-logentries-logger",
   "version": "1.0.0",
   "description": "Seneca Logentries Logger",
-  "main": "index.js",
+  "main": "logentries.js",
   "precommit": "test",
   "scripts": {
     "test": "lab -v -P test -L -t 95 $LAB_FLAGS",
