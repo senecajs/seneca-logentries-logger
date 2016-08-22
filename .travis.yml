@@ -6,7 +6,6 @@ env:
 
 node_js:
   - "6"
-  - "5"
   - "4"
 
 cache:
@@ -14,4 +13,4 @@ cache:
   - node_modules
 
 after_script:
-  - npm run coverage
+  - npm run coveralls
