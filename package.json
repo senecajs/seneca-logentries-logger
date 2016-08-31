@@ -1,7 +1,7 @@
 {
   "name": "seneca-logentries-logger",
   "version": "1.0.0",
-  "description": "Seneca Logentries Logger",
+  "description": "Logentries logger plugin for Seneca",
   "main": "logentries.js",
   "precommit": "test",
   "scripts": {
