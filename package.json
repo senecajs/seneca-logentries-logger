@@ -13,7 +13,8 @@
   "author": "David Gonzalez",
   "license": "MIT",
   "dependencies": {
-    "le_node": "1.6.2"
+    "le_node": "1.6.2",
+    "seneca-log-filter": "^0.1.0"
   },
   "engines": {
     "node": ">=4.x"
