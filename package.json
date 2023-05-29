@@ -10,6 +10,11 @@
     "coverage": "lab -v -P test -L -t 90 -r html > docs/coverage.html",
     "annotate": "docco logentries.js -o docs/annotated"
   },
+  "homepage": "https://github.com/senecajs/seneca-logentries-logger#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senecajs/seneca-logentries-logger.git"
+  },
   "author": "David Gonzalez",
   "license": "MIT",
   "dependencies": {
