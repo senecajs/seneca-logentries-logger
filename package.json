@@ -1,5 +1,5 @@
 {
-  "name": "seneca-logentries-logger",
+  "name": "@seneca/logentries-logger",
   "version": "1.0.0",
   "description": "Logentries logger plugin for Seneca",
   "main": "logentries.js",
